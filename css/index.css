@@ -62,7 +62,7 @@ h3{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-.port{
+/* .port{
     margin:0 -5px;
 
 }
@@ -75,7 +75,36 @@ h3{
     content:"";
     display: table;
     clear: both;
+} */
+
+#work{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
+#work1{
+    cursor: pointer;
+}
+#work2{
+    cursor: pointer;
+}
+#work3{
+    cursor: pointer;
+}
+#work4{
+    cursor: pointer;
+}
+#work5{
+    cursor: pointer;
+}
+#work6{
+    cursor: pointer;
+}
+#work7{
+    cursor: pointer;
+}
+
+
 @media screen and (max-width:600px){
     .column2{
         width: 100%;
