@@ -55,7 +55,7 @@ h3{
     font-size: 25px;
 }
 
-#work1{
+/* #work1{
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -80,7 +80,7 @@ h3{
 }
 #work8{
     cursor: pointer;
-}
+} */
 
 
 /* @media screen and (max-width:600px){
@@ -97,12 +97,30 @@ h3{
 #d{
     font-size: 10px;
 }
-
-/* #p{
-    font-size: 25px;
+.hover{
+    top: 35%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    font-size: 28px;
     text-align: center;
-    margin-top: 350px;
-} */
+    position: absolute;
+    width: 60%;
+    height: 70%;
+}
+.hover > p{
+    position: absolute;
+    transform: translate(-50%);
+    color:white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    top: 55%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    left: 45%;
+    background-color: black;
+}
 
 .cont{
         background-image: url("../img/c_image.jpg");
