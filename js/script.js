@@ -62,7 +62,7 @@ $(document).ready(function(){
         });
         });
 $(document).ready(function(){
-    $("#work1").hover(function(){
+    $("#work7").hover(function(){
             $(this).stop().css({opacity:.3},30);
             $(this).fadein();
         }, function(){
