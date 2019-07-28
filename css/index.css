@@ -51,13 +51,13 @@ h3{
     padding-top: 5%;
     margin-bottom: 5%;
 }
+#p{
+    font-size: 25px;
+}
 
-#work{
+#work1{
     position: relative;
     overflow: hidden;
-    cursor: pointer;
-}
-#work1{
     cursor: pointer;
 }
 #work2{
@@ -76,6 +76,9 @@ h3{
     cursor: pointer;
 }
 #work7{
+    cursor: pointer;
+}
+#work8{
     cursor: pointer;
 }
 
