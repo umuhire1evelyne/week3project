@@ -36,46 +36,21 @@ h3{
 }
 .what{
     text-align: center;
+    padding-top: 3%;
 }
 .column{
-    float: left;
-    width: 30%;
-    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 5%;
 }
-.what:after{
-    content:"";
-    display: picture;
-    clear: both;
-    background-size: 100%;
-}@media screen and (max-width:600px){
-    .column{
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
-.card{
-    padding: 16px;  
-}
-
-h3{
+.port{
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+    margin-bottom: 5%;
 }
-/* .port{
-    margin:0 -5px;
-
-}
-.column2{
-    float: left;
-    width: 20%;
-    padding: 0 10px;
-}
-.port:after{
-    content:"";
-    display: table;
-    clear: both;
-} */
 
 #work{
     position: relative;
@@ -105,7 +80,7 @@ h3{
 }
 
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .column2{
         width: 100%;
         display: block;
@@ -114,17 +89,17 @@ h3{
 }
 .card2{
     padding: 16px;  
-}
+} */
 
 #d{
     font-size: 10px;
 }
 
-#p{
+/* #p{
     font-size: 25px;
     text-align: center;
     margin-top: 350px;
-}
+} */
 
 .cont{
         background-image: url("../img/c_image.jpg");
