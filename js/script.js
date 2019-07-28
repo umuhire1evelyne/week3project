@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $(".our").click(function(){
+        $(".par1")
+    })
+}
+
+$(document).ready(function() {
     $("work").hover(function(){
         $(this).stop().css({opacity:.3},30);
         $(this).fadein();
