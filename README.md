@@ -17,7 +17,7 @@ This project is telling us how Dilani studio work with clients by creating an ex
 - vs code
 
 ## click here
-### link
+### https://github.com/umuhire1evelyne/week3project
 
 ## Licence
 
