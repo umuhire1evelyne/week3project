@@ -51,9 +51,9 @@ h3{
     padding-top: 5%;
     margin-bottom: 5%;
 }
-#p{
+/* #p{
     font-size: 25px;
-}
+} */
 
 /* #work1{
     position: relative;
@@ -94,32 +94,17 @@ h3{
     padding: 16px;  
 } */
 
-#d{
-    font-size: 10px;
+#par{
+    font-size: 15px;
+    display: none;
 }
-.hover{
-    top: 35%;
-    left: 45%;
-    transform: translate(-50%,-50%);
-    font-size: 28px;
-    text-align: center;
-    position: absolute;
-    width: 60%;
-    height: 70%;
+#para{
+    font-size: 15px;
+    display: none;
 }
-.hover > p{
-    position: absolute;
-    transform: translate(-50%);
-    color:white;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-    top: 55%;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: 25px;
-    left: 45%;
-    background-color: black;
+#parag{
+    font-size: 15px;
+    display: none;
 }
 
 .cont{
