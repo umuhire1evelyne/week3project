@@ -13,100 +13,100 @@ $(document).ready(function() {
             $(".parag").toggle();    
     });
 
-    $(".hover1").hide();
-    $(".work1").animate({
-        opacity:0.7
+    $("#b").hide();
+    $("#work1").animate({
+        opacity: 1
     });
-    $(".work1").hover(function(){
-        $(this).stop()
-        $(".hover1").fadeIn();
+    $("#work1").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#b").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover1").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#b").fadeOut();
 });
 
-$(".hover2").hide();
-    $(".work2").animate({
-        opacity:0.7
+$("#o").hide();
+    $("#work2").animate({
+        opacity:1
     });
-    $(".work2").hover(function(){
-        $(this).stop()
-        $(".hover2").fadeIn();
+    $("#work2").hover(function(){
+        $(this).stop().animate({opacity:0.3});
+        $("#o").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover2").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#o").fadeOut();
 });
 
-$(".hover3").hide();
-    $(".work3").animate({
-        opacity:0.7
+$("#g").hide();
+    $("#work3").animate({
+        opacity:1
     });
-    $(".work3").hover(function(){
-        $(this).stop()
-        $(".hover3").fadeIn();
+    $("#work3").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#g").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover3").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#g").fadeOut();
 });
 
-$(".hover4").hide();
-    $(".work4").animate({
-        opacity:0.7
+$("#a").hide();
+    $("#work4").animate({
+        opacity:1
     });
-    $(".work4").hover(function(){
-        $(this).stop()
-        $(".hover4").fadeIn();
+    $("#work4").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#a").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover4").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#a").fadeOut();
 });
 
-$(".hover5").hide();
-    $(".work5").animate({
-        opacity:0.7
+$("#d").hide();
+    $("#work5").animate({
+        opacity:1
     });
-    $(".work5").hover(function(){
-        $(this).stop()
-        $(".hover5").fadeIn();
+    $("#work5").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#d").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover5").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#d").fadeOut();
 });
 
-$(".hover6").hide();
-    $(".work6").animate({
-        opacity:0.7
+$("#u").hide();
+    $("#work6").animate({
+        opacity:1
     });
-    $(".work6").hover(function(){
-        $(this).stop()
-        $(".hover6").fadeIn();
+    $("#work6").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#u").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover6").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#u").fadeOut();
 });
 
-$(".hover7").hide();
-    $(".work7").animate({
-        opacity:0.7
+$("#l").hide();
+    $("#work7").animate({
+        opacity:1
     });
-    $(".work7").hover(function(){
-        $(this).stop()
-        $(".hover7").fadeIn();
+    $("#work7").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#l").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover7").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#l").fadeOut();
 });
 
-$(".hover8").hide();
-    $(".work8").animate({
-        opacity:0.7
+$("#r").hide();
+    $("#work8").animate({
+        opacity:1
     });
-    $(".work8").hover(function(){
-        $(this).stop()
-        $(".hover8").fadeIn();
+    $("#work8").hover(function(){
+        $(this).stop().animate({opacity:0.3},);
+        $("#r").fadeIn();
     }, function(){
-        $(this).stop()
-        $(".hover8").fadeOut();
+        $(this).stop().animate({opacity:1},500);
+        $("#r").fadeOut();
 });
 });
 
